@@ -1,12 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import InputTask from './components/listtask';
+import EditTask from './components/edittask';
+import ListTask from './components/inputtask';
+
 
 class App extends React.Component {
   render(){
     return(
-      <div>
-        
+      <div className="body">
+        <InputTask/>
+        <ListTask/>
       </div>
     )
   }
